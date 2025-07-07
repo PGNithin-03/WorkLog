@@ -39,7 +39,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.ShanInfotech.WorkLogTrackerApp</mainClass>
+                            <mainClass>com.ShanInfotech.WorkLogTrackerApp.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
