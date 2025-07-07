@@ -20,38 +20,42 @@ import com.ShanInfotech.WorkLogTrackerApp.entity.WorkLog;
 public class App 
 {
     public static void main( String[] args ) throws Exception{
-    	Scanner sc=new Scanner(System.in);
-    	
-    	Departmentdao Dd=new Departmentdao();
-    	System.out.println("Insert the Department data");
-    	Department Dr=new Department(sc.nextInt(), sc.next());
-    	Dd.addDepartment(Dr);
-    	
-    	
-    	Employedao Ee=new Employedao();
-    	System.out.println("Insert the Employee Data");
-    	Employe Ep=new Employe(sc.hashCode(), sc.next(), Dr);
-    	Ee.addEmploye(Ep);
-    	
-    	
-    	projectdao Pp=new projectdao();
-    	System.out.println("Insert the project Data");
-    	Project pr=new Project(sc.nextInt(), sc.next(), sc.next());
-    	Pp.addProject(pr);
-    	
-    	
-    	Sprintdao Sp=new Sprintdao();
-    	System.out.println("insert the Sprint data");
-    	Sprint Sr=new Sprint(sc.nextInt(), sc.next(), sc.next(), sc.next(), pr);
-    	Sp.addSprint(Sr);
-    	
-    	
-    	Worklogdao Wl=new Worklogdao();
-    	System.out.println("Insert the WorkLog data");
-    	WorkLog Ww=new WorkLog(sc.nextInt(), sc.next(), sc.nextDouble(), Ep, pr, Sr);
-    	Wl.addWorkLog(Ww);
+//    	Scanner sc=new Scanner(System.in);
+//    	
+//    	Departmentdao Dd=new Departmentdao();
+//    	System.out.println("Insert the Department data");
+//    	Department Dr=new Department(sc.nextInt(), sc.next());
+//    	Dd.addDepartment(Dr);
+//    	
+//    	
+//    	Employedao Ee=new Employedao();
+//    	System.out.println("Insert the Employee Data");
+//    	Employe Ep=new Employe(sc.hashCode(), sc.next(), Dr);
+//    	Ee.addEmploye(Ep);
+//    	
+//    	
+//    	projectdao Pp=new projectdao();
+//    	System.out.println("Insert the project Data");
+//    	Project pr=new Project(sc.nextInt(), sc.next(), sc.next());
+//    	Pp.addProject(pr);
+//    	
+//    	
+//    	Sprintdao Sp=new Sprintdao();
+//    	System.out.println("insert the Sprint data");
+//    	Sprint Sr=new Sprint(sc.nextInt(), sc.next(), sc.next(), sc.next(), pr);
+//    	Sp.addSprint(Sr);
+//    	
+//    	
+//    	Worklogdao Wl=new Worklogdao();
+//    	System.out.println("Insert the WorkLog data");
+//    	WorkLog Ww=new WorkLog(sc.nextInt(), sc.next(), sc.nextDouble(), Ep, pr, Sr);
+//    	Wl.addWorkLog(Ww);
+//	
+	
+    	System.out.println("Hello Ganesh!!!! I M FROM WORK LOG APPLICATIOMN");
+	}
     	
     	
     	
     }
-}
+
